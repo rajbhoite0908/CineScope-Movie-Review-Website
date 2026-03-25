@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CineScope - Feedback</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- HEADER -->
+<div class="header">
+
+    <div class="logo">
+    <h1>CineScope</h1>
+    </div>
+    <br><br>
+
+    <div class="navbar">
+    <a href="home.html">Home</a>
+    <a href="movies.html">Movies</a>
+    <a href="series.html">Web Series</a>
+    <a href="genres.html">Genres</a>
+    <a href="upcoming.html">Upcoming</a>
+    <a href="feedback.html">Feedback</a>
+    <a href="profile.html">Profile</a>
+    </div><br>
+    
+</div>
+
+<!-- PAGE TITLE -->
+<div class="welcome">
+    <h2>Submit Your Feedback</h2>
+    <p>Share your thoughts and rate your favorite movie or series.</p>
+</div>
+
+<!-- FEEDBACK FORM -->
+
+<div class="form-container">
+
+<form action="thankyou.html">
+
+<table cellpadding="10">
+
+<tr>
+    <td>Name:</td>
+    <td><input type="text" name="name" required></td>
+</tr>
+
+<tr>
+    <td>Email:</td>
+    <td><input type="email" name="email" required></td>
+</tr>
+
+<tr>
+    <td>Select Movie / Series:</td>
+    <td>
+        <select name="selection">
+            <option>Interstellar</option>
+            <option>Inception</option>
+            <option>The Conjuring</option>
+            <option>Titanic</option>
+            <option>Jumanji</option>
+            <option>Avengers: Endgame</option>
+            <option>Stranger Things</option>
+            <option>Money Heist</option>
+            <option>Friends</option>
+        </select>
+    </td>
+</tr>
+
+<tr>
+    <td>Rating:</td>
+    <td>
+        <input type="radio" name="rating"> 1
+        <input type="radio" name="rating"> 2
+        <input type="radio" name="rating"> 3
+        <input type="radio" name="rating"> 4
+        <input type="radio" name="rating"> 5
+    </td>
+</tr>
+
+<tr>
+    <td>Comments:</td>
+    <td>
+        <textarea name="comments" rows="4" cols="30"></textarea>
+    </td>
+</tr>
+
+<tr>
+    <td colspan="2">
+        <input type="checkbox" required> I agree to share my feedback.
+    </td>
+</tr>
+
+<tr>
+    <td colspan="2" align="center">
+        <input type="submit" value="Submit" class="trailer-btn">
+        <input type="reset" value="Reset" class="trailer-btn">
+    </td>
+</tr>
+
+</table>
+
+</form>
+
+</div>
+
+<!-- FOOTER -->
+<div class="footer">
+    <p>© 2026 CineScope | All Rights Reserved</p>
+    <p>Email: support@cinescope.com</p>
+</div>
+
+</body>
+</html>
